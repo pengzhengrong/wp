@@ -88,6 +88,12 @@ define('WP_DEBUG', false);
  */
 define('WP_ZH_CN_ICP_NUM', true);
 
+// 每分钟保存一次
+define('AUTOSAVE_INTERVAL', 60);
+ 
+//保存 10 个版本
+define('WP_POST_REVISIONS', 10);
+
 /* 好了！请不要再继续编辑。请保存本文件。使用愉快！ */
 
 /** WordPress目录的绝对路径。 */
